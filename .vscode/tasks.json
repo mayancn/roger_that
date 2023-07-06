@@ -1,0 +1,35 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Apk",
+            "type": "shell",
+            "command": "flutter build apk --target-platform android-arm64 --split-per-abi",
+            "problemMatcher": [],
+            "dependsOn": [
+                "Clean App"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Build Bundle",
+            "type": "shell",
+            "command": "flutter build appbundle",
+            "problemMatcher": [],
+            "dependsOn": [
+                "Clean App"
+            ],
+        },
+        {
+            "label": "Clean App",
+            "type": "shell",
+            "command": "flutter clean",
+            "problemMatcher": [],
+        }
+    ]
+}

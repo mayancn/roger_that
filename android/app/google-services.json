@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "190173997091",
+    "firebase_url": "https://roger-that-a166f.firebaseio.com",
+    "project_id": "roger-that-a166f",
+    "storage_bucket": "roger-that-a166f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190173997091:android:c333c40615771d1e7ea996",
+        "android_client_info": {
+          "package_name": "com.example.roger_that"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190173997091-t3nt9p35lginvmn85digscq9fo66a7eh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roger_that",
+            "certificate_hash": "f52219cdf24f2f9176a07839a7007dc46afbf253"
+          }
+        },
+        {
+          "client_id": "190173997091-ce8q9241n59j8t9ce62sakhevori56i1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-VScuYkCIiGFgJ_FLd31vnwjWjixBjtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190173997091-ce8q9241n59j8t9ce62sakhevori56i1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
